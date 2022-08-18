@@ -21,13 +21,13 @@ public class ChangeMaker {
 
 		/*	These next few lines of code collect the user input
 			so that we can see different outputs for given inputs. */
-		System.out.print("Enter your total: ");
+		System.out.print("Enter your total: $ ");
 		totalDue = keyboard.nextDouble();
-		System.out.print("Enter the collected amount: ");
+		System.out.print("Enter the collected amount: $ ");
 		givenAmnt = keyboard.nextDouble();
 		
 		change = givenAmnt - totalDue;
-		System.out.println("The change is: $" + change);
+		System.out.println("The change is: $ " + change);
 		
 		/*	Add the code below to calculate change given */
 
