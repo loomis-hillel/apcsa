@@ -26,9 +26,6 @@ public class ChangeMaker {
 		System.out.print("Enter the collected amount: $ ");
 		givenAmnt = keyboard.nextDouble();
 		
-		change = givenAmnt - totalDue;
-		System.out.println("The change is: $ " + change);
-		
 		/*	Add the code below to calculate change given */
 
 	}
