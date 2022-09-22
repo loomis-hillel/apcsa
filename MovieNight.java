@@ -13,13 +13,31 @@ public class MovieNight {
         
         // Part II
         
-        // Part II
-        
         // Part III
         System.out.println ( "How are you getting to the theater: " );
         
     }
 
+     /**
+      * Produces 1 of 5 PG-rated movies titles from 2022/21
+      * @return The name of a movie (String)
+      * @author Ken Loomis
+     */
+    public static String pgMovie ( ) {
+        int choice = (int) (Math.random() * 5);
+        if ( choice == 0 ) {
+            return "Hocus Pocus 2";
+        } else if ( choice == 1 ) {
+            return "Turning Red";
+        } else if ( choice == 2 ) {
+            return "Pinocchio: A True Story";
+        } else if ( choice == 3 ) {
+            return "The Bad Guys";
+        } else {
+            return "Sonic the Hedgehog 2";
+        }
+    }
+ 
     /**
       * Produces 1 of 5 PG13-rated movies titles from 2022/21
       * @return The name of a movie (String)
