@@ -12,6 +12,7 @@ class SortingStudents {
         double gpa;
         Student stdntA, stdntB, stdntC;
         Student stdnt1, stdnt2, stdnt3;
+        stdnt1 = stdnt2 = stdnt3 = null;
 
         System.out.println ( "Enter Student A information..." );
         System.out.print ( "\tID: " );
@@ -44,13 +45,14 @@ class SortingStudents {
         keyboard.nextLine();
         stdntC = null; 
 
+        System.out.println ( "Unsorted: " );
         System.out.println ( stdntA );
         System.out.println ( stdntB );
         System.out.println ( stdntC );
 
         /* Add the code to sort the three students here */
         
-        
+        System.out.println ( "Sorted: " );
         System.out.println ( stdnt1 );
         System.out.println ( stdnt2 );
         System.out.println ( stdnt3 );
