@@ -17,13 +17,13 @@ public class Student implements Comparable<Student>{
      */
     public Student ( String id, String name, double gpa ) {
         if (id == null || id.length() <= 0 )
-            throw new IllegalArgumentException("Invalid ID");
+            throw new IllegalArgumentException("Invalid ID: Must contain at least 1 character.");
         if (name == null || name.length() <= 0)
-            throw new IllegalArgumentException("Invalid Name");
-        if (gpa < 0 || gpa > 4.00 )
-            throw new IllegalArgumentException("Invalid GPA");
+            throw new IllegalArgumentException("Invalid Name: Must contain at least 1 character.");
+        if (gpa < 0 || gpa > 4.25 )
+            throw new IllegalArgumentException("Invalid GPA: 0 to 4.25 accepted.");
         if ((int) (gpa*100) != (gpa*100) )
-            throw new IllegalArgumentException("Invalid GPA");
+            throw new IllegalArgumentException("Invalid GPA: two decimal of precision only.");
 
         this.id = id;
         this.name = name;
@@ -37,7 +37,7 @@ public class Student implements Comparable<Student>{
 
     @Override
     public int compareTo ( Student other ) {
-        return (int) (this.gpa*1000 - other.gpa*1000);
+        return (int) (this.gpa*100 - other.gpa*100);
     }
 
     @Override
