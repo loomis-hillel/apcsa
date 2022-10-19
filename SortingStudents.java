@@ -1,5 +1,3 @@
-package students;
-
 import java.util.Scanner;
 
 /**
