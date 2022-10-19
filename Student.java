@@ -1,5 +1,3 @@
-package students;
-
 /**
  * Represents a student that contains the student's
  * id number, name, and gpa (between 0.00 and 4.00).
@@ -39,7 +37,7 @@ public class Student implements Comparable<Student>{
 
     @Override
     public int compareTo ( Student other ) {
-        return (int) (this.gpa*100 - other.gpa*100);
+        return (int) (this.gpa*1000 - other.gpa*1000);
     }
 
     @Override
