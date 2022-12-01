@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PetProgram {
+public class TestPet {
 
     public static void main ( String [] args ) {
 
