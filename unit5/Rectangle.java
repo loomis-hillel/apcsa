@@ -1,5 +1,3 @@
-package shape;
-
 /**
  * A 2D rectangle (wihtout coordinates)
  * @author Ken Loomis
@@ -57,7 +55,7 @@ public class Rectangle {
 	 * @return the width
 	 */
 	public int getWidth ( int w ) {
-		return width;
+		return w;
 	}
 
 	/**
