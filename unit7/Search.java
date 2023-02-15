@@ -25,14 +25,14 @@ public class Search {
 		}
 
 		System.out.print ( "What animal to search for: " );
-		String animal = keyboard.next();
+		String pet = keyboard.next();
 
 		System.out.println( "Linear search: "  );
-		System.out.println( "\t" + animal + " Found at " + linearSearch ( animal, animals )  );
+		System.out.println( "\t" + pet + " Found at " + linearSearch ( pet, pets )  );
 		System.out.println();
 
 		System.out.println( "Linear search: "  );
-		System.out.println( "\t" + animal + " Found at " + linearSearch ( animal, animals )  );
+		System.out.println( "\t" + pet + " Found at " + linearSearch ( pet, pets )  );
 
 	}
 
