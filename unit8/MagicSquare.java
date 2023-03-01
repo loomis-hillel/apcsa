@@ -18,21 +18,21 @@ public class MagicSquare {
 	public static void main(String[] args) {
 
 		Scanner keyboard = new Scanner ( System.in );
-		// Declare a 3x3 array of integers here.
+		// Task 1: Declare a 3x3 array of integers here.
 
-		// Create a loop structure that will collect the 9 numbers.		
+		// Task 2: Create a loop structure that will collect the 9 numbers.		
 		System.out.println( "Enter magic square: ");
 		
-		// This will check that the inputs are between 1 and 9.
+		// Task 3: This will check that the inputs are between 1 and 9.
 		boolean isMagic = checkInput ( square );
 
-		// Check the rows to ensure they add up to the target value
+		// Task 4: Check the rows to ensure they add up to the target value
 
 
-		// Check the columns to ensure they add up to the target value
+		// Task 5: Check the columns to ensure they add up to the target value
 
 		
-		// Check the diagonals to make sure they add up to the target
+		// Task 6: Check the diagonals to make sure they add up to the target
 
 		
 		// If it's a magic square then say so.
